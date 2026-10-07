@@ -125,6 +125,10 @@ h2 {
 /* PIE DE PÁGINA */
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
@@ -183,4 +187,9 @@ footer {
 
 .logo h1 {
     margin: 0;
+}
+
+.seleccionado {
+    background-color: #2a7ed8;
+    padding: 8px 15px;
 }
